@@ -1,14 +1,12 @@
 {
-        "airflow_dags": {
-            "path": "/appz/home/airflow/dags/airflow_dags",
-            "branch": "main",
-            "email": "mpmathew@ecloudcontrol.com",
-            "group": "data-engineering"
-        },
-        "https://github.com/mpmathew/jaffle_shop": {
-            "path": "/appz/home/airflow/dags/dbt/jaffle_shop",
-            "branch": "main",
-            "email": ["mpmathew+test@ecloudcontrol.com", "mpmathew@ecloudcontrol.com", "mpmathew+alt@ecloudcontrol.com"],
-            "group": "test"
-        }
+    "https://github.com/Akshaidevopscc/airflow_dags": [
+        "/appz/home/airflow/dags/dbt/airflow_dags",
+        "main",
+        "asurendran@ecloudcontrol.com"
+    ],
+    "https://github.com/Akshaidevopscc/jaffle_shop": [
+        "/appz/home/airflow/dags/dbt/jaffle_shop",
+        "main",
+        "asurendran@ecloudcontrol.com"
+   ]
 }
